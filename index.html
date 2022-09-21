@@ -5,35 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Actividad PIL</title>
 </head>
 <body>
-    <header>
-        <ul>Inicio</ul>
-        <ul>Girasoles</ul>
-        <ul>Tortugas</ul>
-        <ul>Soles</ul>
-    </header>
-    <section>
-        <div>
-            <h1 class="titulo">Primer Actividad</h1>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PIL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#girasoles">Girasoles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tortugas">Tortugas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#soles">Soles</a>
+              </li>
+              
+              
+            </ul>
+            
+          </div>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>recusandae ipsum aliquam debitis</b> , similique maxime voluptatem mollitia cum ea labore.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i>Quisquam, obcaecati.</i></p>
-        <h4 class="titulo">Girasol</h4>
+      </nav>
+    
+
+    <section>
+        <div class="container-fluid bg-primary">
+            <h1 class="titulo">Primer Actividad</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>recusandae ipsum aliquam debitis</b> , similique maxime voluptatem mollitia cum ea labore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <i>Quisquam, obcaecati.</i></p>
+        </div>
+        
+        <h4 class="titulo" id="girasoles">Girasol</h4>
         <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrhy9Ct7QfCQZJFRg30Xmtz60Uq_wJWIdiOg&usqp=CAU">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrhy9Ct7QfCQZJFRg30Xmtz60Uq_wJWIdiOg&usqp=CAU" alt="Cielo estrellado">
         </a>
-        <h4 class="titulo">Tortuga Marina</h4>
+        <h4 class="titulo" id="tortugas">Tortuga Marina</h4>
         <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4eLxVqkqPWoGQnZ0vlUmgsnGDtnvd0UYLeA&usqp=CAU">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4eLxVqkqPWoGQnZ0vlUmgsnGDtnvd0UYLeA&usqp=CAU" alt="Tortuga marina nadando">
         </a>
-        <h4 class="titulo">Atardecer</h4>
+        <h4 class="titulo" id="soles">Atardecer</h4>
         <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb9ic4SMXBJpkCDXzHV1d5WB-r8pdoA2aGlw&usqp=CAU">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb9ic4SMXBJpkCDXzHV1d5WB-r8pdoA2aGlw&usqp=CAU" alt="Sol sobre el horizonte">
         </a>
     </section>
 
     <footer>Este es el footer</footer>
-</body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
 </html>
