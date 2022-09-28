@@ -10,11 +10,11 @@ img{
     width: 100%;
 }
 p{
-    background-color:bisque;
+    background-color:rgb(252, 237, 218);
 }
 header ul{
     display: inline;
 }
-header ul:hover{
+nav ul li:hover{
     background-color: aquamarine;
 }
